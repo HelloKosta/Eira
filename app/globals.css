@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(
+    135deg,
+    #f8f9fa 0%,
+    #f3f4f6 30%,
+    #e5e7eb 60%,
+    #ffedf5 100%
+  );
+  color: #1f2937;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* {
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+}
